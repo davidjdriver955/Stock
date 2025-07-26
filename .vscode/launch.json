@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Stock}",
+            "name": "Debug Stock",
+            "program": "${workspaceFolder:Stock}/.build/debug/Stock",
+            "preLaunchTask": "swift: Build Debug Stock"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:Stock}",
+            "name": "Release Stock",
+            "program": "${workspaceFolder:Stock}/.build/release/Stock",
+            "preLaunchTask": "swift: Build Release Stock"
+        }
+    ]
+}
