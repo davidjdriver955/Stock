@@ -1,8 +1,64 @@
+# macOS system files
 .DS_Store
-/.build
-/Packages
-xcuserdata/
+.AppleDouble
+.LSOverride
+
+# Icon files
+Icon
+._*
+
+# Thumbnails
+._.DS_Store
+
+# macOS specific folders
+.Spotlight-V100
+.Trashes
+.VolumeIcon.icns
+
+# SwiftPM / Xcode build folders
+.build/
 DerivedData/
-.swiftpm/configuration/registries.json
-.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
-.netrc
+*.xcworkspace/
+xcuserdata/
+*.xcodeproj/project.xcworkspace/
+*.xcodeproj/xcuserdata/
+
+# User-specific Xcode/SwiftPM settings
+*.swiftsummary
+*.swiftmodule
+*.swiftdoc
+
+# Logs and archives
+*.xcuserstate
+*.xcscmblueprint
+*.moved-aside
+*.xcsettings
+*.xcuserdatad
+*.xcscheme
+*.xcodeproj/*
+*.xcodeproj/project.xcworkspace/xcuserdata
+*.xcodeproj/xcuserdata/
+
+# Editor backups and lock files
+*~ 
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Micro editor (if used)
+*.save
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Swift Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Git conflict files
+*.orig
+
+# Project-specific
+Generated/
